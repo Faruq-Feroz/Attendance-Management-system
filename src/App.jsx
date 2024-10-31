@@ -10,9 +10,9 @@ const App = () => {
     };
 
     const deleteRecord = (index) => {
-        // Create a new array without the deleted record
+       
         const newRecords = records.filter((_, i) => i !== index);
-        // Update the state with the new records
+       
         setRecords(newRecords);
     };
 
